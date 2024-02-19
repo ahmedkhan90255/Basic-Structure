@@ -1,0 +1,37 @@
+/* Styling and media of navbar */
+
+body {
+    margin: 0%;
+    padding: 0px 0px;
+    box-sizing: border-box;
+}
+header {
+    width: 100%;
+    background-color: aqua;
+}
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 8%;
+    width: 80%;
+    
+}
+.navcontent {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+
+}
+.navlogo {
+    display: flex;
+}
+
+
+
+/* Navbar Media Starts here */
+@media screen and (min-width:200px) and (max-width:450px) {
+    .navcontent {
+        display: none;
+    }
+    
+}
